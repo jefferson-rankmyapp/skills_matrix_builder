@@ -11,7 +11,7 @@ def render():
         st.session_state["contexto"] = contexto
         st.success("Informações iniciais salvas!")
 
-    st.header("Documentação - Guia do People.AI")
+    st.header("💡Guia do People.AI")
     with st.expander("Clique para ver o guia completo"):
         doc_text = """
         # People.AI - Assistente para Matriz de Habilidades
